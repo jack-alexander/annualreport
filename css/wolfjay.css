@@ -117,7 +117,7 @@ ul.post-list {
 }
 
 article + [data-readmore-toggle] {
-  max-width: 100%;
+  max-width: 90%;
   padding: 1rem;
   margin: 1rem auto 0 auto;
   background: rgba(217,217,217,1);
