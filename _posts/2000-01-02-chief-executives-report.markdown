@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Chief Hip Hop Rapper Amazing Cool Report"
+title:  "Chief Executive Report"
 date:   2000-01-02
 categories:
 ---
 
-# Chief Hip Hop Rapper Amazing Cool Report
+# Chief Executive Report
 
 ### I am very pleased to provide this year’s annual report, which details the SATC’s recent endeavors in helping to grow the State’s visitor economy. Tourism is an economic development strategy, a critical pillar for South Australia, and the Government has recognized this potential and recently elevated its status as one of its ten economic priorities.
 
