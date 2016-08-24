@@ -38,7 +38,7 @@
 
 .opener {
   max-width: 30rem;
-  width: 80%;
+  width: 90%;
   height: 40rem;
   max-height: 60%;
   margin: 1rem;
@@ -54,7 +54,7 @@
 }
 
 .opener-panel {
-  height: 10rem;
+  height: 20%;
   max-width: 30rem;
   width: 100%;
   background-image:url(../images/title-overlay.png);
