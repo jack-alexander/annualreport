@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="wolfjay-header">
+        <div class="opener">
+          <div class="opener-panel"></div>
+        </div>
+
+      <nav class="wolfjay-nav">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <a class="wolfjay-page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </nav>
+
+      <div id="search-demo-container">
+        <input type="text" id="search-input" placeholder="search...">
+        <ul id="results-container"></ul>
+      </div>
+
+    </div>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
+
+    <script type="text/javascript">
+
+        $('article').readmore({
+        speed: 100,
+        collapsedHeight: 900,
+        lessLink: '<a href="#">Read less</a>',
+        afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+        $('html, body').animate( { scrollTop: element.offset().top }, {duration: 100 } );
+        }
+        }
+        });
+
+    </script>
+
+  </body>
+
+</html>

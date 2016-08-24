@@ -1,0 +1,11 @@
+# Site settings
+title: Jack's Annual Report
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  The South Australian Tourism Commission (SATC) is committed to growing the state's tourism industry. The SATC works with industry to support tourism growth.
+baseurl: "/annualreport" # the subpath of your site, e.g. /blog/
+url: "/annualreport" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+markdown: kramdown

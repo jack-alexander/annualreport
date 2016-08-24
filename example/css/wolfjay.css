@@ -1,0 +1,32 @@
+#search-demo-container {
+  max-width: 40em;
+  padding: 1em;
+  margin: 1em auto;
+  border: 1px solid lightgrey;
+}
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width: 100%;
+  font-size: 0.8em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.opener {
+  width: 10rem;
+  height: 15rem;
+  margin: 0 auto 0 auto;
+  background-image:url(css/images/DSC_0032.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.opener-panel {
+}
+
+.opener-title {
+
+}
