@@ -12,6 +12,11 @@
   color: #ED1C25;
 }
 
+#search-demo-container li {
+  list-style:disc;
+  color: white;
+}
+
 
 #search-input {
   display: inline-block;
