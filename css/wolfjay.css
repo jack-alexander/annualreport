@@ -27,7 +27,7 @@
 
 .wolfjay-header {
   background-color: #1b1b1b;
-  height: 60rem;
+  height: 40rem;
   width: 100%;
   display: flex;;
   flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 .opener {
-  max-width: 30rem;
+  max-width: 40rem;
   width: 90%;
   height: 40rem;
   max-height: 60%;
@@ -55,7 +55,8 @@
 
 .opener-panel {
   height: 20%;
-  max-width: 30rem;
+  padding: 1rem;
+  max-width: 40rem;
   width: 100%;
   background-image:url(../images/title-overlay.png);
   background-size: contain;
