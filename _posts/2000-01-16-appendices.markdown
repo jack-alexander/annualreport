@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  “Appendices“
-date:   2000-01-16
-categories:
+title: “Appendices“
+date: {}
+categories: null
+published: true
 ---
 
-# Appendices
+# Take Out My Appendix
 
 ## Freedom of Information Statement
 
