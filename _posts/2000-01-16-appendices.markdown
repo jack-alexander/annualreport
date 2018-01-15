@@ -16,6 +16,8 @@ published: true
 
 #### Structure and Functions
 
+Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.  ey were the last people you’d expect to be in- volved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+
 In July 1993, the South Australian Tourism Commission was established by the Government of South Australia as a body corporate, pursuant to the South Australian Tourism Commission Act 1993. A board appointed by the Minister for Tourism administers the Act.
 
 <img class="feature-image" src="images/people-on-jetty-watching-sunset-in-semaphore-beach-adelaide-australia.jpg" alt="people-on-jetty-watching-sunset-in-semaphore-beach-adelaide-australia">
