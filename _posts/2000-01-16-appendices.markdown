@@ -1,7 +1,7 @@
 ---
 layout: post
 title: “Appendices“
-date: {}
+date: 2000-01-17T00:00:00.000Z
 categories: null
 published: true
 ---
